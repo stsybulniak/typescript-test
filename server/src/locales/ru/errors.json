@@ -1,0 +1,20 @@
+{
+  "clientErrors": {
+    "notFound": "Ресурс не найден"
+  },
+  "serverErrors": {
+    "errorOccured": "Произошла ошибка"
+  },
+  "auth": {
+    "invalidCredentials": "Неверный логин или пароль",
+    "tokenDecline": "Токен не валиден"
+  },
+  "validation": {
+    "fieldRequired": "Свойство \"{{path}}\" обязательное.",
+    "duplicateValue": "Такое значение уже существует",
+    "shotPassword": "Пароль должен быть не менее {{minlength}} символов",
+    "emailNotValid": "Значение \"{{value}}\" не является валидным email адресом",
+    "duplicateField": "Значение \"{{value}}\" уже существует, пожалуйста, введите другое значение",
+    "passwordNotMatch": "Парали должны совпадать"
+  }
+}

@@ -1,0 +1,41 @@
+version: '3'
+services:
+  mongodb:
+    image: 'mongo:latest'
+    ports:
+      - 27017:27017
+    command: mongod
+  nginx:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "3050:80"
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: ./server
+    env_file:
+      - server/.env
+    volumes:
+      - /app/node_modules
+      - ./server:/app
+    environment:
+      - NODE_ENV
+      - MONGO_URL
+      - TOKEN_EXPIRE
+      - REFRESH_TOKEN_EXPIRE
+      - SECRET_KEY
+      - REFRESH_SECRET_KEY
+      - SESSION_SECRET
+      - PORT
+      - GOOGLE_CLIENT_ID
+      - GOOGLE_CLIENT_SECRET
+  client:
+    build:
+      dockerfile: Dockerfile
+      context: ./client
+    volumes:
+      - /app/node_modules
+      - ./client:/app

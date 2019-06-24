@@ -1,0 +1,24 @@
+{
+  "clientErrors": {
+    "notFound": "Resource not found"
+  },
+  "serverErrors": {
+    "errorOccured": "Something went wrong"
+  },
+  "auth": {
+    "invalidCredentials": "Invalid credentials",
+    "tokenDecline": "Token decline"
+  },
+  "user": {
+    "tokenDecline": "Token decline",
+    "notFound": "User not found"
+  },
+  "validation": {
+    "fieldRequired": "Property is required.",
+    "duplicateValue": "Duplicate value error",
+    "shotPassword": "Password must consists at least of {{minlength}} characters",
+    "emailNotValid": "Value \"{{value}}\" is not a valid email",
+    "duplicateField": "Value \"{{value}}\" has already exist, please choose another one",
+    "passwordNotMatch": "Password doesn't match"
+  }
+}

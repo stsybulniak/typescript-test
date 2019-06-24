@@ -1,0 +1,23 @@
+{
+  "general": {
+    "helloWorld": "Привет мир!",
+    "testProject": "Тестовый проект"
+  },
+  "auth": {
+    "registerIfNoAccount": "Вы не зарегестрированы? Зарегистрируйтесь",
+    "registerAccountWithLink": "Вы не зарегестрированы? <1>Зарегистрируйтесь</1>"
+  },
+  "buttons": {
+    "signin": "Войти",
+    "signup": "Регистрация",
+    "logout": "Выход",
+    "googleLogin": "Логин через Google",
+    "submit": "Отправить"
+  },
+  "formFields": {
+    "password": "Пароль",
+    "email": "Почта",
+    "name": "Имя",
+    "confirmPassword": "Подтвердите пароль"
+  }
+}

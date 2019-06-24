@@ -1,0 +1,24 @@
+{
+  "general": {
+    "helloWorld": "Hello World!",
+    "signUp": "Sign Up",
+    "testProject": "Test Project"
+  },
+  "auth": {
+    "registerIfNoAccount": "Don't have an account? Sign up",
+    "registerAccountWithLink": "Don't have an account? <1>Sign Up</1>"
+  },
+  "buttons": {
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "googleLogin": "Login via Google",
+    "submit": "Submit"
+  },
+  "formFields": {
+    "password": "Password",
+    "email": "Email",
+    "name": "Name",
+    "confirmPassword": "Confirm Password"
+  }
+}

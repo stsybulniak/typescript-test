@@ -1,0 +1,72 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@types/socket.io-client": "^1.4.32",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "formik": "^1.5.2",
+    "i18next": "^15.0.9",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^2.0.1",
+    "lodash": "^4.17.11",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-flags-select": "^1.1.10",
+    "react-i18next": "^10.6.1",
+    "react-redux": "^6.0.1",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "socket.io": "^2.2.0",
+    "typesafe-actions": "^4.4.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "node_modules/typescript/bin/tsc -p tsconfig.json && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.2.7",
+    "@types/i18next": "^12.1.0",
+    "@types/i18next-browser-languagedetector": "^3.0.0",
+    "@types/i18next-xhr-backend": "^1.4.2",
+    "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.130",
+    "@types/material-ui": "^0.21.6",
+    "@types/node-sass": "^4.11.0",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-flags-select": "^1.1.2",
+    "@types/react-i18next": "^8.1.0",
+    "@types/react-redux": "^7.0.6",
+    "@types/react-router": "^4.4.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/recompose": "^0.30.5",
+    "@types/redux": "^3.6.0",
+    "@types/redux-saga": "^0.10.5",
+    "@types/socket.io": "^2.1.2",
+    "@types/yup": "^0.26.12",
+    "node-sass": "^4.11.0",
+    "typescript": "^3.4.1"
+  }
+}

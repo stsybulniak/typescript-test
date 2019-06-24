@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json",
+    "/*.json",
+    "./tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
